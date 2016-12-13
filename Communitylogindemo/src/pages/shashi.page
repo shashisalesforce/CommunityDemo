@@ -1,0 +1,11 @@
+<apex:page sidebar="false" tabStyle="Account__c">
+<apex:sectionHeader title="Section Title" subtitle="Section Subtitle"/>
+<apex:form >
+<apex:pageBlock title="Page Block Title" helpTitle="Custom Help Title" helpUrl="http://test/">
+<apex:pageBlockSection title="Page Block Section Title" collapsible="false" showHeader="false">
+<apex:commandButton action="{!Save}" value="Save Button"/>
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

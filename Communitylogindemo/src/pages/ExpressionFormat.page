@@ -1,0 +1,6 @@
+<apex:page >
+    {!10}<br/>
+    {! 10+20}<br/>
+    {! 'sam'+'kiran'}<br/>
+    {!isnull(10)}
+</apex:page>

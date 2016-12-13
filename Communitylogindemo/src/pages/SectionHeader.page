@@ -1,0 +1,4 @@
+<apex:page >
+    <apex:sectionHeader title="Title of the Page" subtitle="Subtitle" description="Description" help="http://www.google.com"/>
+    
+</apex:page>

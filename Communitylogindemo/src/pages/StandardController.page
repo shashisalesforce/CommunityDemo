@@ -1,0 +1,4 @@
+<apex:page standardController="Account">
+    {! Account.Name}===={!Account.Industry}
+    
+</apex:page>

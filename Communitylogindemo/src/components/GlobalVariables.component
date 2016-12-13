@@ -1,0 +1,6 @@
+<apex:component >
+    {! $User.LastName}<br/>
+    {! $User.FirstName}<br/>
+    {! $Organization.Name}<br/>
+    {! $Profile.Name}
+   </apex:component>

@@ -1,0 +1,35 @@
+<apex:page docType="html-5.0" controller="CustomLoginController" showHeader="false" sidebar="false" standardStylesheets="false">
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrap, 'dist/css/bootstrap.min.css')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.bootstrap, 'dist/js/bootstrap.min.js')}"/>
+    <div>
+    <apex:form styleClass="form-horizontal">
+      <fieldset>
+        <div id="legend">
+          <legend class="">Shashi Login Page</legend>
+        </div>
+        <div>
+          <!-- Username -->
+          <apex:outputLabel value="Username" styleClass="col-lg-2 control-label" for="username"/>
+          <div>
+              <apex:inputText value="{!username}" id="username" styleClass="form-control" Style="Width:170pX;hight:50px;" />
+          </div>
+        </div>
+        <br/>
+        <div>
+          <!-- Password-->
+          <apex:outputLabel value="Password" styleClass="col-lg-2 control-label" for="password"/>
+          <div>
+            <apex:inputSecret id="password" value="{!password}" styleClass="form-control" Style="Width:170pX;hight:50px;" />
+          </div>
+        </div>
+        <div>
+          <!-- Button -->
+          <div></div>
+          <div>
+            <apex:commandButton action="{!login}"  value="Login" style="Color:Green;Margin-left:100px;" />
+          </div>
+        </div>
+      </fieldset>
+    </apex:form>
+    </div>
+    </apex:Page>
